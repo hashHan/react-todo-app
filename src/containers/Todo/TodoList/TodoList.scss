@@ -1,0 +1,20 @@
+.TodoList{
+    background-color: #702222;
+    height: 100%;
+    width: 100%;
+    .TodoItem{
+        .ItemLabel{
+            background-color: #705e22;
+            display: inline-block;
+        }
+        .EditButton{
+            background-color: #3b7022;
+            display: inline-block;
+        }
+        .DeleteButton{
+            background-color: #226770;
+            display: inline-block;
+        }
+    }
+    
+}

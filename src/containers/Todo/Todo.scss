@@ -1,0 +1,38 @@
+.Todo{
+    background-color: white;
+    width: 80%;
+    height: 80%;
+    color: #1BBC9B;
+    position: relative;
+}
+
+.TodoLabel{
+    position: absolute;
+    top:0;
+    background-color: grey;
+    height: 35%;
+    width: 100%;
+    .TodoSpanOne{
+    
+    }
+    
+    .TodoSpanTwo{
+    
+    }
+}
+
+.TodoSearch{
+    position: absolute;
+    background-color: greenyellow;
+    top: 35%;
+    height: 12%;
+    width: 100%;
+}
+
+.TodoList{
+    position: absolute;
+    background-color: rgb(47, 130, 255);
+    top: 47%;
+    height: 53%;
+    width: 100%;
+}
