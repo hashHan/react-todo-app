@@ -2,19 +2,63 @@
     background-color: #702222;
     height: 100%;
     width: 100%;
+    display: flex;
+    flex-direction: column; // control reverse orders at js
+    justify-content: flex-start;
+    align-items: center;
     .TodoItem{
+        background-color: #6b7022;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        height: 20%; // fix to use em or rem
+        width: 100%;
+        margin-top: 1px;
+        margin-bottom: 1px;
         .ItemLabel{
-            background-color: #705e22;
+            background-color: white;
             display: inline-block;
+            width: 70%;
+            height:95%;
+            margin-left: 10px;
+            box-sizing: border-box;
         }
-        .EditButton{
-            background-color: #3b7022;
-            display: inline-block;
-        }
-        .DeleteButton{
-            background-color: #226770;
-            display: inline-block;
+        .Controls{
+            display: flex;
+            justify-content: flex-end;
+            align-items: center;
+            height:95%;
+            margin-right: 10px;
+            margin-left: 10px;
+
+            .EditButton{
+                background-color: #249B81;
+                display: inline-block;
+                box-sizing: border-box;
+                border: none;
+                color: white;
+                outline: none;
+                cursor: pointer;
+                font: inherit;
+                height: 2em; 
+                //padding: 10px;
+                margin: 2px;
+                //font-weight: bold;
+            }
+            .DeleteButton{
+                background-color: #E44742;
+                display: inline-block;
+                box-sizing: border-box;
+                border: none;
+                color: white;
+                outline: none;
+                cursor: pointer;
+                font: inherit;
+                height: 2em; 
+                //padding: 10px;
+                margin-left: 2px;
+                //font-weight: bold;
+            }
         }
     }
-    
 }

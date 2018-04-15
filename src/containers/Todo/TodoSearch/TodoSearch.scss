@@ -2,12 +2,31 @@
     background-color: #010101;
     height: 100%;
     width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
     .TextBox{
-        background-color: #5a7a25;
+        //background-color: #5a7a25;
         display: inline-block;
+        border: 2px solid #249B81;
+        width: 80%;
+        margin-left: 10px;
+        box-sizing: border-box;
+        height: 2em; 
     }
     .AddButton{
-        background-color: #813a8f;
+        background-color: #249B81;
         display: inline-block;
+       
+            border: none;
+            color: white;
+            outline: none;
+            cursor: pointer;
+            font: inherit;
+            height: 2em; 
+            //padding: 10px;
+            margin: 10px;
+            //font-weight: bold;
+        
     }
 }

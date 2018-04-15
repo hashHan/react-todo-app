@@ -27,6 +27,7 @@
     "fs-extra": "3.0.1",
     "html-webpack-plugin": "2.29.0",
     "jest": "20.0.4",
+    "material-ui": "^0.20.0",
     "node-sass": "^4.8.3",
     "object-assign": "4.1.1",
     "postcss-flexbugs-fixes": "3.2.0",
@@ -88,10 +89,14 @@
   },
   "babel": {
     "presets": [
-      "react-app"
+      "react-app",
+      "stage-1"
     ]
   },
   "eslintConfig": {
     "extends": "react-app"
+  },
+  "devDependencies": {
+    "babel-preset-stage-1": "^6.24.1"
   }
 }
