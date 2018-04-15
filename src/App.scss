@@ -3,13 +3,12 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 100%;
   max-width: 800px;
-  height: 80vh;
-  min-height: 400px; 
-  background-color: blue;
+  height: 100vh;
+  background-color: transparent;
+  //background-color: blue;
   position: relative;
-  
+  margin: auto;
 }
 
 .AppTriangle {
@@ -37,5 +36,8 @@
 .Todo {
   position: fixed;
   z-index: 3;
+  //width: 80%;
+  max-width: 800px;
+  min-height: 400px;
 }
 

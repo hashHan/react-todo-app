@@ -1,34 +1,44 @@
 .TodoList{
-    background-color: #702222;
+    background-color: transparent;
+    //background-color: #702222;
     height: 100%;
     width: 100%;
-    display: flex;
-    flex-direction: column; // control reverse orders at js
-    justify-content: flex-start;
-    align-items: center;
+    // display: flex;
+    // flex-direction: column; // control reverse orders at js
+    // justify-content: flex-start;
+    // align-items: center;
+    overflow: auto;
     .TodoItem{
-        background-color: #6b7022;
+        background-color: transparent;
+        //background-color: #6b7022;
         display: flex;
         justify-content: space-between;
         align-items: center;
-        height: 20%; // fix to use em or rem
+        height: 3em; // fix to use em or rem
         width: 100%;
         margin-top: 1px;
         margin-bottom: 1px;
+        padding: 1px;
         .ItemLabel{
-            background-color: white;
-            display: inline-block;
-            width: 70%;
-            height:95%;
+            background-color: transparent;
+            //background-color: white;
+            //display: inline-block;
+            width: 60%;
+            max-width: 60%;
+            height: 2.5em;
+            line-height: 2.3em;
             margin-left: 10px;
             box-sizing: border-box;
         }
         .Controls{
+            background-color: transparent;
+            //background-color: rgb(36, 38, 155);
             display: flex;
             justify-content: flex-end;
             align-items: center;
-            height:95%;
-            margin-right: 10px;
+            height:2.5em;
+            width: 5em;
+            //margin-right: 10px;
             margin-left: 10px;
 
             .EditButton{

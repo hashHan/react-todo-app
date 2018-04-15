@@ -1,0 +1,51 @@
+.TodoEdit{
+    background-color: transparent;
+    //background-color: black; //check layer 
+    height: 100%;
+    width: 100%;
+    text-align:center;
+    //max-width: 100%;
+    //display: flex;
+    //justify-content: space-between;
+    align-items: center;
+    .TextBox{
+        //background-color: #5a7a25;
+        display:block;
+        border: 2px solid #249B81;
+        width: 80%;
+        min-width: 10em;
+        margin: auto;
+        margin-top: 10px;
+        box-sizing: border-box;
+        height: 2em; 
+    }
+    .EditButton{
+        background-color: #249B81;
+        display:inline-block;
+       
+            border: none;
+            color: white;
+            outline: none;
+            cursor: pointer;
+            font: inherit;
+            height: 2em; 
+            //padding: 10px;
+            margin: 10px;
+            //font-weight: bold;
+        
+    }
+    .CancelButton{
+        background-color: rgb(255, 0, 0);
+        display: inline-block;
+       
+            border: none;
+            color: white;
+            outline: none;
+            cursor: pointer;
+            font: inherit;
+            height: 2em; 
+            //padding: 10px;
+            margin: 10px;
+            //font-weight: bold;
+    }
+}

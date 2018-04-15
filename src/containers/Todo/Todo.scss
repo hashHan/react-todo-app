@@ -1,4 +1,8 @@
 .Todo{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     background-color: white;
     width: 80%;
     height: 80%;
@@ -7,10 +11,12 @@
 }
 
 .TodoLabel{
-    position: absolute;
+    //position: absolute;
     top:0;
-    background-color: grey;
-    height: 35%;
+    background-color: transparent;
+    //background-color: grey;
+    //height: 35%;
+    height: 7rem;
     width: 100%;
     .TodoSpanOne{
     
@@ -22,17 +28,57 @@
 }
 
 .TodoSearch{
-    position: absolute;
-    background-color: greenyellow;
-    top: 35%;
-    height: 12%;
+    //position: absolute;
+    background-color: transparent;
+    //background-color: greenyellow;
+    //top: 35%;
+    height: 3rem;
     width: 100%;
 }
 
 .TodoList{
-    position: absolute;
-    background-color: rgb(47, 130, 255);
-    top: 47%;
-    height: 53%;
+    //position: absolute;
+    background-color: transparent;
+    //background-color: rgb(47, 130, 255);
+    //top: 47%;
+    //height:80%;
     width: 100%;
+    flex:1;
+}
+
+
+.EditModal{
+    // display: flex;
+    // flex-direction: column ;
+    // text-align: left;
+    // align-items: center;
+    // justify-content: center;
+    position: fixed;
+    z-index: 500;
+    min-height: 80%;
+    width: 70%;
+    border: 1px solid #ccc;
+    box-shadow: 1px 1px 1px black;
+    padding: 16px;
+    left: 15%;
+    top: 5%;
+    box-sizing: border-box;
+
+    color: white;
+    transition: all 0.3s ease-out;
+    @media (min-width: 600px) {
+        width: 500px;
+        left: calc(50% - 250px);
+    }
+
+    background: linear-gradient(272deg, #7c2e00, #c8703c, #552000);
+    background-size: 600% 600%;
+
+    animation: AnimationName 30s ease infinite;
+
+    @keyframes AnimationName { 
+        0%{background-position:0% 50%}
+        50%{background-position:100% 50%}
+        100%{background-position:0% 50%}
+    } 
 }
